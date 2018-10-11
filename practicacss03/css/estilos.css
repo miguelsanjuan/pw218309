@@ -1,0 +1,7 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*Es requerimiento del cliente*/
+	max-width: 1078px;
+	min-height: 1078px;
+}
