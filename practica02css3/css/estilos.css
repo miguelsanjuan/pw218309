@@ -4,6 +4,7 @@ body{
 	/*Es requerimiento del cliente*/
 	max-width: 1078px;
 	min-height: 1078px;
+	background: #3A417F;
 }
 #bgoffer{
 	left: -35px;
@@ -25,10 +26,10 @@ header input{
 }
 header nav ul li {
 	display: inline-block;
-	color: gray;
+	color: white;
 	font-size: 1.8em;
 	margin-right: 15px;
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid white;
 	/*text-decoration: underline;*/
 	padding-bottom: 2px;
 }
@@ -54,6 +55,7 @@ header nav{
 #secc01art02{
 	margin-left: 50px;
 	width: 30%;
+	color: white;
 }
 #secc01art02 ul{
 	list-style: none; 	/*quitamos viñetas*/
@@ -62,8 +64,18 @@ header nav{
 	color: #b28787;
 	content:  "• ";
 }
+#secc03art01{
+	color: white;
+}
+#secc03art02{
+	color: white;
+}
+#secc03art03{
+	color: white;
+}
 #secc03art04{
 	padding-top: 60px;
+	color: white;
 }
 #segundaseccion article{
 	padding-right: 122px;
