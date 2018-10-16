@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Fuentes</title>
+	<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+</head>
+<style>
+	/*Fuente descargada*/
+	@font-face{
+		font-family: Jaldi;
+		src:url("Jaldi/Jaldi.ttf");
+	}
+	@font-face{
+		font-family: Quantico;
+		src:url("Quantico/Quantico-Regular.ttf");
+	}
+	/*Uso de una fuente por referencia*/
+	#txtFuente{
+		font-family: 'Catamaran',sans-serif;
+	}
+	#txtOtraFuente{
+		font-family: 'Quantico',sans-serif;
+		font-style: bold
+	}
+</style>
+<body>
+	<span id="txtFuente">
+		Texto de prueba para fuentes
+	</span>
+	<p></p>
+	<span id="txtOtraFuente">
+		Texto de prueba para Otra fuente		
+	</span>
+</body>
+</html>

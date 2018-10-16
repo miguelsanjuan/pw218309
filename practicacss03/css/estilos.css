@@ -5,6 +5,7 @@ body{
 	max-width: 1078px;
 	min-height: 1078px;
 	background: #2B2B2B;
+	font-family: 'Catamaran', sans-serif;
 }
 #menu{
 	padding-top: 2px;
@@ -15,6 +16,9 @@ body{
 }
 #logo{
 	width: 280px;
+}
+#segundaseccion img{
+	width: 300px;
 }
 header{
 	background: white;
