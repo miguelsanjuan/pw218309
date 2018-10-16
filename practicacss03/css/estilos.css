@@ -4,4 +4,33 @@ body{
 	/*Es requerimiento del cliente*/
 	max-width: 1078px;
 	min-height: 1078px;
+	background: #2B2B2B;
+}
+#menu{
+	padding-top: 2px;
+	height: 50px;
+	/*position: relative;*/
+	padding-left: 50px;
+	margin-bottom: 20px;
+}
+#logo{
+	width: 280px;
+}
+header{
+	background: white;
+}
+header input{
+	float: left;
+	margin-left: :-200px;
+	margin-top: 8px;
+	width: 125px;
+	
+}
+section nav ul li {
+	list-style-type: none;
+	color: white;
+	font-size: 1.8em;
+	margin-right: 15px;
+	/*text-decoration: underline;*/
+	padding-bottom: 2px;
 }
