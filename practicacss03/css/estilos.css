@@ -2,8 +2,8 @@ body{
 	font-size: 16px; /*1em*/
 	margin: 0px auto;
 	/*Es requerimiento del cliente*/
-	max-width: 1078px;
-	min-height: 1078px;
+	max-width: 1178px;
+	min-height: 1178px;
 	background: #2B2B2B;
 	font-family: 'Catamaran', sans-serif;
 }
@@ -16,10 +16,46 @@ body{
 }
 #logo{
 	width: 280px;
+	margin-left: -25px;
 }
 #segundaseccion img{
 	width: 300px;
 }
+#primerseccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-top: 27px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: -4px;
+
+}
+#segundaseccion article{
+	display: inline-block;
+	vertical-align: top;
+	border-bottom: 1px dashed gray;
+	width: 20%;
+
+}
+#secc01art01{
+	background: lightgreen;
+	color: white;
+}
+#secc01art02{
+	color: white;
+	background: gray;
+}
+#secc01art03{
+	background: red;
+	color: white;
+}
+#secc01art04{
+	background: lightgray;
+	color: gray;
+
+}
+
 header{
 	background: white;
 }
@@ -28,13 +64,15 @@ header input{
 	margin-left: :-200px;
 	margin-top: 8px;
 	width: 125px;
-	
 }
 section nav ul li {
 	list-style-type: none;
 	color: white;
 	font-size: 1.8em;
-	margin-right: 15px;
+	margin-right: 900px;
 	/*text-decoration: underline;*/
 	padding-bottom: 2px;
+	
+
 }
+section article
