@@ -2,36 +2,43 @@ body{
 	font-size: 16px; /*1em*/
 	margin: 0px auto;
 	/*Es requerimiento del cliente*/
-	max-width: 1178px;
-	min-height: 1178px;
+	max-width: 1300px;
+	min-height: 1300px;
 	background: #2B2B2B;
 	font-family: 'Catamaran', sans-serif;
 }
 #menu{
 	padding-top: 2px;
-	height: 50px;
+	height: 55px;
 	/*position: relative;*/
-	padding-left: 110px;
+	padding-left: 120px;
 	margin-bottom: 20px;
 }
 #logo{
 	width: 200px;
-	margin-left: -10px;
+	margin-left: -15px;
+	position: relative;
+}
+#primerseccion{
+	padding-bottom: 30px;
 }
 #segundaseccion img{
 	width: 300px;
 }
 #segundaseccion {
+	padding-top: 25px;
 	border-top: 1px solid gray;
 }
 #primerseccion article{
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
+	width: 18%;
 	margin-top: 27px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-left: -4px;
+	padding-top: 40px;
+	padding-right: 10px;
+	padding-left: 10px; 
+	padding-bottom: 60px;
+	margin-left: -5px;
 
 }
 #segundaseccion article{
@@ -39,6 +46,7 @@ body{
 	vertical-align: top;
 	/*border-top: 1px dashed gray;*/
 	width: 20%;
+	margin-right: 150px;
 
 }
 #secc01art01{
@@ -56,7 +64,6 @@ body{
 #secc01art04{
 	background: rgb(228,228,228);
 	color: gray;
-
 }
 
 header{
@@ -75,6 +82,14 @@ section nav ul li {
 	/*text-decoration: underline;*/
 	padding-bottom: 2px;
 	
-
 }
-section article
+/*section article*/
+.letragrande{
+	font-size: 1.7em;
+}
+.nito{
+	font-weight: bold; /*negritas*/
+}
+.colorgris{
+	color: #9E9E9E;
+}
