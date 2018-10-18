@@ -11,15 +11,18 @@ body{
 	padding-top: 2px;
 	height: 50px;
 	/*position: relative;*/
-	padding-left: 50px;
+	padding-left: 110px;
 	margin-bottom: 20px;
 }
 #logo{
-	width: 280px;
-	margin-left: -25px;
+	width: 200px;
+	margin-left: -10px;
 }
 #segundaseccion img{
 	width: 300px;
+}
+#segundaseccion {
+	border-top: 1px solid gray;
 }
 #primerseccion article{
 	display: inline-block;
@@ -34,24 +37,24 @@ body{
 #segundaseccion article{
 	display: inline-block;
 	vertical-align: top;
-	border-bottom: 1px dashed gray;
+	/*border-top: 1px dashed gray;*/
 	width: 20%;
 
 }
 #secc01art01{
-	background: lightgreen;
+	background: rgb(180,208,82);
 	color: white;
 }
 #secc01art02{
 	color: white;
-	background: gray;
+	background: rgb(84,84,84);
 }
 #secc01art03{
-	background: red;
+	background: rgb(212,45,63);
 	color: white;
 }
 #secc01art04{
-	background: lightgray;
+	background: rgb(228,228,228);
 	color: gray;
 
 }
@@ -68,8 +71,7 @@ header input{
 section nav ul li {
 	list-style-type: none;
 	color: white;
-	font-size: 1.8em;
-	margin-right: 900px;
+	font-size: 1.5em;
 	/*text-decoration: underline;*/
 	padding-bottom: 2px;
 	
