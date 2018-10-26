@@ -1,0 +1,141 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	/*Es requerimiento del cliente*/
+	max-width: 1078px;
+	min-height: 1078px;
+	border: 1px solid black;
+	font-family: 'Cabin', sans-serif;
+}
+#seccion1{
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px; 
+	padding-bottom: 50px;
+
+}
+#seccion2 {
+	padding-left: 20px;
+}
+#seccion3 {
+	padding-left: 20px;
+	
+}
+#seccion3 article{
+	display: inline-block;
+	margin-right: 40px;
+	padding-top: 30px;
+	color: gray;
+	
+}
+
+#seccion1 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#sec01art01{
+	border-bottom: 1px dashed gray;
+	border: 1px solid black;
+	width: 550px;
+}
+#sec01art03{
+	position: relative;
+	width: 400px;
+	height: 450px;
+	border: 1px solid black;
+	
+}
+#video02{
+	width: 200px;
+	padding-right: 20px;
+}
+#video01{
+	width: 200px;
+}
+#bike{
+	width: 400px;
+}
+#years{
+	width: 120px;
+	position: relative;
+	float: left;
+	top: -80px;
+}
+#logo{
+	width: 150px;
+	margin-right: 800px;
+	padding-left: 20px;
+}
+#rojo{
+	width: 30px;
+}
+#uk{
+	width: 30px;
+}
+#mundo{
+	width: 30px;
+
+}
+#goto{
+	width: 150px;
+	/*float: right;*/
+	left: 650px;
+	top: -120px;
+	position: relative;
+}
+#buy{
+	width: 50px;
+	/*float: right;*/
+	position: relative;
+	top: -70px;
+	left: 460px;
+}
+#about{
+	border-bottom: 1px solid gray;
+	padding-right: 80px;
+}
+#Customer{
+	border-bottom: 1px solid gray;
+	padding-right: 50px;
+}
+#Our{
+	border-bottom: 1px solid gray;
+	padding-right: 60px;
+}
+#Activities{
+	border-bottom: 1px solid gray;
+	padding-right: 70px;
+}
+#News{
+	border-bottom: 1px solid gray;
+	padding-right: 120px;
+}
+#title{
+	border-bottom: 1px dashed gray;
+	padding-right: 200px;
+}
+header{
+	padding-top: 30px;
+	border-bottom: 1px dashed gray;
+}
+header nav ul li {
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 1.2em;
+	margin-right: 15px;
+	/*text-decoration: underline;*/
+	padding-bottom: 2px;
+	position: relative;
+}
+.letragrande{
+	font-size: 90px;
+}
+.letracasichica{
+	font-size: 18px;
+}
+.colorverde{
+	color: #73f33d;
+}
+.colorgris{
+	color: gray;
+}
