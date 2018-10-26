@@ -1,0 +1,110 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*Es requerimiento del cliente*/
+	max-width: 1078px;
+	min-height: 1078px;
+	background: #262626;
+}
+header{
+	background: #3a3a3a;
+	color: white;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#libros{
+	width: 400px;
+	float: right;
+	position: relative;
+	right: 0px;
+	top: 30px;
+
+}
+#find{
+	background:  #3ec9cc;
+	border: 1px solid #3ec9cc;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#allour{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid white;
+}
+
+#site{
+	margin-right: 280px;
+}
+#login{
+	border: 1px solid white;
+	background: #3a3a3a;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#sign{
+	border: 1px solid #3ec9cc;
+	color: white;
+	background: #3ec9cc;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#sec01{
+	background: #e62d85;
+	background-image: url("img/fondo.png");
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+	padding-top: 10px;
+
+}
+#sec02{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+#sec01 article{
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	margin-right: 60px;
+}
+#sec03{
+	background: #ef8d25;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+}
+.colorrosa{
+	color: #e62d85;
+}
+.colorblanco{
+	color: white;
+}
+.colorgris{
+	color: gray;
+}
+.letramediana{
+	font-size: 1.5em;
+}
+.letragrande{
+	font-size: 1.7em;
+}
+.letrachica{
+	font-size: 1.3em;
+}
+.letrasupergrande{
+	font-size: 2.6em;
+}
+.nito{
+	font-weight: bold;
+}
