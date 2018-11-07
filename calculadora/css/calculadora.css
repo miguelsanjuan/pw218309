@@ -2,20 +2,28 @@ body{
 	font-size: 16px;
 }
 table{
+	background: gray;	
 	margin: 0 auto;
 }
 button{
-	border-radius: 30px;
+	border-radius: 5px;
 	height: 100%;
 	font-size: 2em;
 	width: 100%;
 }
 button:hover{
+
 	background: black;
 	color: lightgray;
 }
 input{
-	border-radius: 10px;
+	border-radius: 5px;
 	font-size: 2em;
 	text-align: right;
 }
+/*input:focus{
+	background: yellow;
+}
+input:focusout{
+	background: white;
+}*/
