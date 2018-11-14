@@ -9,9 +9,13 @@ body{
 header{
 	background: #3a3a3a;
 	color: white;
-	vertical-align: top;
-	padding-top: 5px;
+	padding-top: 7px;
 	padding-bottom: 5px;
+
+}
+header img{
+	vertical-align: top;
+	
 }
 #libros{
 	width: 400px;
