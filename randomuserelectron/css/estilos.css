@@ -1,0 +1,71 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+	min-width: 1024px;
+}
+header,footer{
+	background: black;
+	color: white;
+	font-size: 1.5em;
+	padding: 15px 0px 10px 10px;
+}
+
+header button{
+	background: white;
+	border: 3px solid green;
+	border-radius: 15px;
+	color: green;
+	font-size: 1.2em;
+	outline: none;
+	width: 134px;
+}
+header button:hover{
+	background: green;
+	color: white;
+}
+header nav{
+	text-align: center;
+	width: 100%;
+}
+
+header nav ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+#foto{
+	border: 1px solid #39c;
+	border-radius: 400px;	
+	width: 200px;
+}
+#primerSeccion{
+	background: #ABABAB;
+	padding-bottom: 10px;
+	width: 100%;
+}
+#primerSeccion > article{
+	text-align: center;
+	vertical-align: middle;
+}
+#primerSeccion article{
+	display: inline-block;
+	margin: 0px auto;
+	width: 400px;
+}
+.redondeadonorelieve {
+	background: white;
+    border-radius: 5px;
+    border: 1px solid #39c;
+    font-size: 1.2em;
+    height: 30px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
